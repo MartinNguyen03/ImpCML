@@ -51,3 +51,7 @@ The remainign 10 marks can be earned by performing any **2** of the following ad
     Students will present the results of their experiments with tables or figures and describe how these plots validate or invalidate their hypothesis. Importantly: text in figures should be no smaller than font size in the main text.
 ### Discussion
     Students will use this section to discuss what they were able to do, highlight any experiments they wish they could have done, and provide an environmental impact assessment of the experiments that they ran
+
+
+## The Goal ##
+![alt text](image.png)
