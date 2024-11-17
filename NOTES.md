@@ -5,6 +5,9 @@
     - polynomial basis expanded linea regression
     - GPT basis expansion (?)
 
+
+
+
 Assessment Criteria:
 
 - Writing quality (5 marks / 8.33%)
@@ -23,35 +26,82 @@ The remainign 10 marks can be earned by performing any **2** of the following ad
     - neural networks
     - k nearest neighbours
     - decision trees
+
+
 - Results n≥30 (5 marks / 8.33%)
     - changing hyperparameters (e.g. optimisation techniques, layers, mini batching, etc)
 - Strong theoretical analysis (5 marks / 8.33%)
 - Exceptional sustainability analysis (5 marks / 8.33%)
-- Calibrated uncertainty (5 marks / 8.33%)
+- Calibrated uncertainty (5 marks / 8.33%) -> martin
 
 
-## Report sections:
-### Abstract 
-    A short paragraph describing the main aims of the paper, method investigated for achieving that aim, and briefly mentioning the key results.
-### Introduction
-    Sets a broader stage than the introduction. Spends a paragraph
-    outlining the importance of the problem (in our case challenge datasets), a
-    paragraph describing how the paper seeks to solve the problem, a paragraph
-    giving the reader some details of the solution structure (e.g., what experiments
-    are carried out) and a paragraph summarizing the main takeaways of the
-    experiments.
-### Methodology
-    The mathematical foundations of any models used. This uses notation similar to what we have seen in class to orient the reader. E.g., if describing gradient descent writing it out formally and pointing out the
-    hyper-parameters you are interested in like learning rate and number of epochs.
-### Experimental Design
-    Typically in research papers this is left to the Appendix, but in this case we are asking students to dedicate a section of their paper to describing a hypothesis they seek to test, the experiment they will run to test this,and how they will ensure their results are valid (e.g., including error bars, differentdata splits)
+## **Report sections:**
 
-    
-### Experimental Results
-    Students will present the results of their experiments with tables or figures and describe how these plots validate or invalidate their hypothesis. Importantly: text in figures should be no smaller than font size in the main text.
-### Discussion
-    Students will use this section to discuss what they were able to do, highlight any experiments they wish they could have done, and provide an environmental impact assessment of the experiments that they ran
+### location to be determined:
+
+- The false assumptions made by mock paper which led to the erroneous conclusion
+
+### **Abstract:**
+
+- Short paragraph describing main aims of our paper, method investigated to achiev this, and brief mention of key results
+
+### **Introduction: (setting a broader stage than abstract)**
+
+- Paragraph outlining importance of problem (Kryptonite-n challenge dataset)
+- Paragraph on how our paper seeks to solve the problem outlined in previous paragraph
+- Paragraph on the details of solution structure (e.g. what experiments are carried out)
+- Paragraph summarising main takeaways of experiements
+
+### **Methodology: (mathematical foundations of any models used)**
+
+e.g. If gradient descent is to be described, then writing out the corresponding equation, pointing out hyperparameters interested in such as learning rate, no. of epochs, etc
+
+- Describe any operations performed on data
+    - normalisation (why?)
+- Describe the mathematical foundations of neural networks
+    - MLP equation for nn architecture
+    - neural network training (loss function (relating binary cross entropy back to MLE), gradient descent formulation, learning rate, weight initialisation)
+    - intuitive explanation linking back to universal approximation
+    - hyperparameter search
+    - more effective approach for fitting dataset of unknown distribution to a model than basis expanded linear regression due to the elimination of the need to manually search for suitable basis expansion
+
+### **Experimental Design:**
+
+- Outline hypothesis to be tested
+- Outline experiment(s) that will be run to test this
+- Outline actions taken to ensure results are valid
+    - including error bars
+    - experimenting with different data splits
+    - cross validation
+    - training with different random seeds
+    - pickling the data after randomising and splitting into train/val/test
+
+### **Experimental Results:**
+
+- Presentation of results using tables and/or figures
+    - plot of accuracy against epochs for each n value
+    - plot of highest achieved accuracy vs target accuracies provided by mock paper
+- Descriptions of how these plots validate/invalidate original hypothesis
+
+### **Discussion:**
+
+- Discuss what was achieved by the completed experiments
+- HIghlight experiments that we would have liked to have done
+- Paragraph on environmental impact assessment carried out on experiments run (Use this tool: https://mlco2.github.io/impact/)
+- For environmental impact (from edstem post):
+    - “More advanced analysis would perhaps use the tool in development and do some optimization to try to pick a model that is the most sustainable.”
+
+### Extra marks stuff:
+
+- Multiple models:
+    - idk yet
+- Results (n≥30)
+- strong theoretical analysis
+- exceptional sustainability analysis
+- calibrated uncertainty
 
 
 ## The Goal ##
 ![alt text](image.png)
+
+
