@@ -1,4 +1,4 @@
-# Kryptonite-N
+# Kryptonite-N KISHOK U ARE GAY
 
 Coursework for Mathematics for Machine Learning (70015) at Imperial College London. 
 
